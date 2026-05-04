@@ -1,0 +1,84 @@
+/* General Page Styling */
+body {
+    background-color: #7e7e7e;
+    color: pink;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Neon Title */
+h1 {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 2.8em;
+    color: hotpink;
+
+    /* Neon glow effect */
+    text-shadow:
+        0 0 5px hotpink,
+        0 0 10px hotpink,
+        0 0 20px deeppink,
+        0 0 40px deeppink,
+        0 0 80px magenta;
+
+    letter-spacing: 2px;
+
+    /* Optional animation for glow pulse */
+    animation: neonGlow 1.8s infinite alternate;
+}
+
+/* Glow animation */
+@keyframes neonGlow {
+    from {
+        text-shadow:
+            0 0 5px hotpink,
+            0 0 10px hotpink,
+            0 0 20px deeppink,
+            0 0 40px deeppink;
+    }
+    to {
+        text-shadow:
+            0 0 10px hotpink,
+            0 0 20px hotpink,
+            0 0 30px deeppink,
+            0 0 60px magenta,
+            0 0 90px magenta;
+    }
+}
+
+/* Table Styling */
+table {
+    margin: 40px auto;
+    border-collapse: collapse;
+    width: 70%;
+    background-color: #111; /* dark black-gray */
+    box-shadow: 0 0 15px hotpink;
+}
+
+/* Table Header */
+th {
+    background-color: hotpink;
+    color: black;
+    padding: 12px;
+    font-size: 1.2em;
+}
+
+/* Table Cells */
+td {
+    border: 1px solid hotpink;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Links inside table */
+a {
+    color: pink;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: white;
+    text-decoration: underline;
+}
