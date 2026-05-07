@@ -52,7 +52,7 @@ table {
     margin: 40px auto;
     border-collapse: collapse;
     width: 70%;
-    background-color: #111; /* dark black-gray */
+    background-color: #111; /* dark gray */
     box-shadow: 0 0 15px hotpink;
 }
 
@@ -81,4 +81,28 @@ a {
 a:hover {
     color: white;
     text-decoration: underline;
+}
+.gif-container {
+	text-align: center;
+	margin-top: 20px;
+}
+
+.slug {
+	width: 2050;
+}
+
+/* Quote Section */
+.quote {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  height: 100vh;
+
+  font-size: 2rem;
+  font-style: italic;
+  color: white;
+
+  padding: 20px;
 }
